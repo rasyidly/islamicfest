@@ -21,7 +21,7 @@ useHead({
         { name: "og:url", content: 'https://fest.islami.co' },
         { name: "og:description", content: description },
         { name: "og:type", content: "website" },
-        { name: "og:image", content: "/images/logo-pattern.jpg" },
+        { name: "og:image", content: "/logo-pattern.jpg" },
     ],
 });
 </script>
