@@ -1,42 +1,31 @@
-# Nuxt 3 Minimal Starter
+# Islami(c) Fest
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Build with 💘 for [https://islami.co](https://islami.co) grand event with collaboration of Kemenag RI and Unicef.
 
-## Setup
+## Installation
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`
+Install this project with npm, just npm!
 
 ```bash
-npm run dev
+  npm i
 ```
 
-## Production
+## Tech Stack
 
-Build the application for production:
+-   ![NuxtJS](https://img.shields.io/badge/Nuxt-black?style=for-the-badge&logo=nuxt.js&logoColor=white)
+-   ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+-   ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+-   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-```bash
-npm run build
-```
+## Authors
 
-Locally preview production build:
+-   Pakde Lantip [@lantip](https://www.github.com/lantip)
+-   Rasyid Ridho [@rasyidly](https://www.github.com/rasyidly)
 
-```bash
-npm run preview
-```
+## Support
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+For support, email rasyid@sekeco.id.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
