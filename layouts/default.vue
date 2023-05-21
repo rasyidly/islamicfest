@@ -3,7 +3,7 @@
         <div class="border-b-4 border-gray-950">
             <div class="container max-w-6xl p-4 mx-auto">
                 <div class="flex items-center justify-center">
-                    <LogoIslamicFest class="max-h-24" />
+                    <LogoIslamicFest class="max-h-24 aspect-auto" />
                     <div class="text-[12vw] font-bold sm:text-6xl md:text-8xl 2xl:text-9xl">fest</div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
             <div class="container mx-auto flex flex-col xl:flex-row lg:justify-between gap-20">
                 <div>
                     <h5 class="text-xl text-gray-300 font-bold mb-4">Pelaksana</h5>
-                    <div class="flex items-center space-x-4">
+                    <div class="flex flex-wrap items-center gap-8">
                         <img class="aspect-auto max-h-10" src="/images/kemenag.png" alt="">
                         <img class="aspect-auto max-h-8" src="/images/unicef.png" alt="">
                         <img class="aspect-auto max-h-8" src="/images/islami.svg" alt="">
@@ -71,11 +71,15 @@
                 <div>
                     <h5 class="text-xl text-gray-300 font-bold mb-4">Hubungi kami</h5>
                     <div class="text-gray-400 mb-1 flex items-start md:items-center space-x-2">
-                        <PhHouseSimple />
+                        <div class="pt-1 md:pt-0">
+                            <PhHouseSimple />
+                        </div>
                         <div>Apartement City Light, Jl. Ir H. Juanda, Cemp. Putih, Kec. Ciputat Tim., Kota Tangerang Selatan, Banten 15412</div>
                     </div>
                     <a class="text-indigo-500 mb-1 flex items-start md:items-center space-x-2" href="mailto:yayasan.islamidotco@gmail.com" target="_blank">
-                        <PhEnvelope />
+                        <div class="pt-1 md:pt-0">
+                            <PhEnvelope />
+                        </div>
                         <div>yayasan.islamidotco@gmail.com</div>
                     </a>
                     <div class="text-gray-400">&copy; 2023 </div>

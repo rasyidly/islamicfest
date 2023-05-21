@@ -42,7 +42,7 @@
                         <div class="border-4 divide-y-4 border-gray-950 rounded-xl divide-gray-950 overflow-clip">
                             <div class="flex flex-col md:flex-row md:items-center gap-4 p-8 text-4xl font-bold bg-amber-500">
                                 <PhSpeakerHigh :size="64" />
-                                <h3>Dakwahtainment</h3>
+                                <h3 class="hyphens-manual">Dakwah&shy;tainment</h3>
                             </div>
                             <div class="overflow-x-auto bg-white">
                                 <ul class="flex py-10 flex-nowrap">

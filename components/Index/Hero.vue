@@ -8,7 +8,7 @@
                 <path class="fill-pink-500 stroke-yellow-500 in-bottom" d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z" />
             </svg>
             <div class="container z-10 max-w-6xl py-16 mx-auto lg:py-24">
-                <h1 class="mb-8 font-bold text-6xl sm:text-8xl xl:text-[108pt] xl:leading-[108pt] outline-4">Ramah Keberagaman & Ramah Anak</h1>
+                <h1 class="mb-8 font-bold text-6xl sm:text-8xl sm:hyphens-none xl:text-[108pt] xl:leading-[108pt] outline-4">Ramah Kebera&shy;gaman & Ramah Anak</h1>
                 <div class="inline-block px-6 py-3 text-2xl font-bold bg-white border-4 rounded-lg sm:rounded-full border-gray-950">Jakarta, <br class="sm:hidden" /> 9 s.d. 10 Juni 2023</div>
             </div>
         </section>

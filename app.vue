@@ -12,13 +12,13 @@ const description = 'Ruang perjumpaan para pegiat media Islam, content creator, 
 useHead({
     title,
     htmlAttrs: {
-        class: "scroll-smooth",
+        lang: "id",
     },
     meta: [
         { name: "description", content: description },
         { name: "og:title", content: title },
         { name: "og:site_name", content: "Islami(c) Fest" },
-        { name: "og:url", content: 'https://fest.islami.co' },
+        { name: "og:url", content: 'https://islamicfest.ngecek.my.id' },
         { name: "og:description", content: description },
         { name: "og:type", content: "website" },
         { name: "og:image", content: "/logo-pattern.jpg" },
