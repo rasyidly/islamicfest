@@ -1,6 +1,8 @@
-# Islami(c) Fest
+# Islami(c) Fest 2023
 
 Build with 💘 for [https://islami.co](https://islami.co) grand event with collaboration of Kemenag RI and Unicef.
+
+Ruang perjumpaan para pegiat media Islam, content creator, dan influencer yang fokus pada kampanye Islam ramah dan moderat di ruang digital
 
 ## Installation
 
