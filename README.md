@@ -1,4 +1,4 @@
-# Islami(c) Fest 2023
+# Islamifest 2023
 
 Build with 💘 for [https://islami.co](https://islami.co) grand event with collaboration of Kemenag RI and Unicef.
 

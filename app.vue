@@ -13,15 +13,15 @@ useHead({
     title,
     htmlAttrs: {
         lang: "id",
-    },
-    meta: [
-        { name: "description", content: description },
-        { name: "og:title", content: title },
-        { name: "og:site_name", content: "Islami(c) Fest" },
-        { name: "og:url", content: 'https://islamicfest.ngecek.my.id' },
-        { name: "og:description", content: description },
-        { name: "og:type", content: "website" },
-        { name: "og:image", content: "/logo-pattern.jpg" },
-    ],
+    }
 });
+
+useSeoMeta({
+    title,
+    ogTitle: title,
+    description,
+    ogDescription: description,
+    ogImage: "/logo-pattern.jpg",
+    twitterCard: 'summary_large_image',
+})
 </script>

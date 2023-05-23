@@ -11,21 +11,21 @@
                         <PhArrowRight :size="24" />
                         <div>
                             <div class="text-gray-400">Hari</div>
-                            <div class="text-lg font-bold">Jumat s.d. Sabtu</div>
+                            <div class="text-lg font-bold">Jumat & Sabtu</div>
                         </div>
                     </div>
                     <div class="flex items-center space-x-4">
                         <PhArrowRight :size="24" />
                         <div>
                             <div class="text-gray-400">Tanggal</div>
-                            <div class="text-lg font-bold">9 s.d. 10 Juni 2023</div>
+                            <div class="text-lg font-bold">9 & 10 Juni 2023</div>
                         </div>
                     </div>
                     <div class="flex items-center space-x-4">
                         <PhArrowRight :size="24" />
                         <div>
                             <div class="text-gray-400">Waktu</div>
-                            <div class="text-lg font-bold">09:00 WIB s.d. selesai</div>
+                            <div class="text-lg font-bold">09:00 WIB & selesai</div>
                         </div>
                     </div>
                     <div class="flex items-center space-x-4">
@@ -47,13 +47,13 @@
                 <table class="w-full bg-white table-fixed">
                     <thead class="border-b-4 border-gray-950">
                         <tr>
-                            <th class="p-4 text-white bg-gray-950">Mg</th>
-                            <th class="p-4 text-white bg-gray-950">Sn</th>
-                            <th class="p-4 text-white bg-gray-950">Sl</th>
-                            <th class="p-4 text-white bg-gray-950">Rb</th>
-                            <th class="p-4 text-white bg-gray-950">Km</th>
-                            <th class="p-4 text-white bg-gray-950">Jm</th>
-                            <th class="p-4 text-white bg-gray-950">Sb</th>
+                            <th class="p-4 text-white bg-gray-950">M</th>
+                            <th class="p-4 text-white bg-gray-950">S</th>
+                            <th class="p-4 text-white bg-gray-950">S</th>
+                            <th class="p-4 text-white bg-gray-950">R</th>
+                            <th class="p-4 text-white bg-gray-950">K</th>
+                            <th class="p-4 text-white bg-gray-950">J</th>
+                            <th class="p-4 text-white bg-gray-950">S</th>
                         </tr>
                     </thead>
                     <tbody>
