@@ -15,7 +15,7 @@
         <section id="about" class="p-4 border-b-4 border-gray-950">
             <div class="max-w-6xl py-16 mx-auto text-center lg:py-24">
                 <h2 class="mb-6 text-5xl font-bold">Islamifest</h2>
-                <p class="mb-8 text-2xl">Ruang perjumpaan para pegiat media Islam, content creator, dan influencer yang fokus pada kampanye Islam ramah dan moderat di ruang digital</p>
+                <p class="mb-8 text-2xl">Ruang perjumpaan yang dirancang untuk merayakan keberagaman dan keindahan budaya Islam. Event ini menghadirkan berbagai elemen seni, budaya, dan spiritualitas Islam abad ke-21 yang akan memberikan pengalaman yang mendalam dan berkesan bagi para Anda.</p>
                 <a class="inline-flex items-center px-8 py-4 space-x-4 text-lg font-bold transition bg-indigo-400 border-4 rounded-full hover:bg-amber-500 border-gray-950" :href="ticketUrl" target="_blank">
                     <div>Buy Ticket</div>
                     <PhArrowRight />

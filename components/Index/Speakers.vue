@@ -6,13 +6,13 @@
                 <div id="speakers-talk" class="flex flex-col mx-auto border-4 divide-y-4 lg:divide-y-0 lg:divide-x-4 lg:flex-row border-gray-950 rounded-xl divide-gray-950 overflow-clip">
                     <div class="flex flex-col gap-4 p-8 text-4xl font-bold bg-indigo-500 md:flex-row md:items-center lg:items-start lg:justify-between lg:flex-col lg:p-16">
                         <PhMicrophoneStage :size="64" />
-                        <h3>Panggung Toughtful Talk</h3>
+                        <h3>Kajian Pakar</h3>
                     </div>
                     <div class="overflow-x-auto bg-white">
                         <ul class="flex py-10 flex-nowrap">
                             <li class="px-6 text-center min-w-max" v-for="speaker in speakers">
-                                <figure class="grid place-items-center">
-                                    <img class="w-56" src="https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg" alt="">
+                                <figure class="grid mb-2 place-items-center">
+                                    <img class="w-56" :src="speaker.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
                                 </figure>
                                 <h1 class="text-2xl font-bold">{{ speaker.name }}</h1>
                                 <div class="text-lg text-indigo-500">{{ speaker.as }}</div>
@@ -28,8 +28,8 @@
                     <div class="w-full overflow-x-auto bg-white">
                         <ul class="flex py-10 2xl:justify-center flex-nowrap">
                             <li class="px-6 text-center min-w-max" v-for="musician in musicians">
-                                <figure class="grid place-items-center">
-                                    <img class="w-56" src="https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg" alt="">
+                                <figure class="grid mb-2 place-items-center">
+                                    <img class="w-56" :src="musician.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
                                 </figure>
                                 <h1 class="text-2xl font-bold">{{ musician.name }}</h1>
                                 <div class="text-lg text-indigo-500">{{ musician.as }}</div>
@@ -47,8 +47,8 @@
                             <div class="overflow-x-auto bg-white">
                                 <ul class="flex py-10 2xl:justify-center flex-nowrap">
                                     <li class="px-6 text-center min-w-max" v-for="preacher in preachers">
-                                        <figure class="grid place-items-center">
-                                            <img class="w-56" src="https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg" alt="">
+                                        <figure class="grid mb-2 place-items-center">
+                                            <img class="w-56" :src="preacher.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
                                         </figure>
                                         <h1 class="text-2xl font-bold">{{ preacher.name }}</h1>
                                         <div class="text-lg text-amber-500">{{ preacher.as }}</div>
@@ -66,8 +66,8 @@
                             <div class="overflow-x-auto bg-white">
                                 <ul class="flex py-10 flex-nowrap">
                                     <li class="px-6 text-center min-w-max" v-for="comedian in comedians">
-                                        <figure class="grid place-items-center">
-                                            <img class="w-56" src="https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg" alt="">
+                                        <figure class="grid mb-2 place-items-center">
+                                            <img class="w-56" :src="comedian.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
                                         </figure>
                                         <h1 class="text-2xl font-bold">{{ comedian.name }}</h1>
                                         <div class="text-lg text-gray-500">{{ comedian.as || '' }}</div>
@@ -87,16 +87,24 @@ import { PhMicrophoneStage, PhMusicNotes, PhSpeakerHigh, PhMaskHappy } from '@ph
 
 const speakers = [
     {
+        img: '/images/speakers/yaqut-cholil.png',
         name: 'Yaqut Cholil Qoumas',
         as: 'Menteri Agama'
     },
     {
+        img: '/images/speakers/alissa-wahid.png',
         name: 'Alissa Wahid',
         as: 'Jaringan Gusdurian'
     },
     {
+        img: '/images/speakers/prof-quraish.png',
         name: 'Prof. M. Quraish Shihab',
         as: 'Pakar Tafsir Alquran'
+    },
+    {
+        img: '/images/speakers/kalis.png',
+        name: 'Kalis Mardiasih',
+        as: 'Peneliti Isu Perempuan & Anak'
     },
     {
         name: 'Savic Ali',
@@ -119,6 +127,7 @@ const musicians = [
 
 const preachers = [
     {
+        img: '/images/speakers/bib-husein.png',
         name: 'Login',
         as: 'Habib Husein Jafar & Onad'
     }

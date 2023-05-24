@@ -76,8 +76,11 @@
                 <div>
                     <h5 class="mb-4 text-xl font-bold text-gray-300">Partner</h5>
                     <div class="flex flex-wrap items-center gap-8">
-                        <img class="aspect-auto max-h-12" src="/images/kemenag.png" alt="">
-                        <img class="aspect-auto max-h-8" src="/images/unicef.png" alt="">
+                        <a href="https://www.kemenag.go.id/" target="_blank"><img class="aspect-auto max-h-12" src="/images/kemenag.png" alt=""></a>
+                        <a href="https://www.unicef.org/" target="_blank"><img class="aspect-auto max-h-7" src="/images/unicef.png" alt=""></a>
+                        <a href="https://www.instagram.com/komuji_indonesia/" target="_blank"><img class="aspect-auto max-h-12" src="/images/komuji.png" alt=""></a>
+                        <a href="https://cariustadz.id/" target="_blank"><img class="aspect-auto max-h-6" src="/images/cariustadz.png" alt=""></a>
+                        <a href="https://bincangsyariah.com/" target="_blank"><img class="aspect-auto max-h-12" src="/images/bincangsyariah.png" alt=""></a>
                     </div>
                 </div>
                 <div>
