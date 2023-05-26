@@ -87,9 +87,9 @@ import { PhMicrophoneStage, PhMusicNotes, PhSpeakerHigh, PhMaskHappy } from '@ph
 
 const speakers = [
     {
-        img: '/images/speakers/yaqut-cholil.png',
-        name: 'Yaqut Cholil Qoumas',
-        as: 'Menteri Agama'
+        img: '/images/speakers/prof-quraish.png',
+        name: 'Prof. M. Quraish Shihab',
+        as: 'Pakar Tafsir Alquran'
     },
     {
         img: '/images/speakers/alissa-wahid.png',
@@ -97,23 +97,27 @@ const speakers = [
         as: 'Jaringan Gusdurian'
     },
     {
-        img: '/images/speakers/prof-quraish.png',
-        name: 'Prof. M. Quraish Shihab',
-        as: 'Pakar Tafsir Alquran'
+        img: '/images/speakers/yaqut-cholil.png',
+        name: 'Yaqut Cholil Qoumas',
+        as: 'Menteri Agama'
     },
     {
-        img: '/images/speakers/kalis.png',
-        name: 'Kalis Mardiasih',
-        as: 'Peneliti Isu Perempuan & Anak'
+        name: 'Hilmar Farid',
+        as: 'Dirjen Kebudayaan'
+    },
+    {
+        name: 'Uni Lubis',
+        as: 'Jurnalis Perempuan'
     },
     {
         name: 'Savic Ali',
         as: 'PBNU'
     },
     {
-        name: 'Uni Lubis',
-        as: 'Jurnalis Perempuan'
-    }
+        img: '/images/speakers/kalis.png',
+        name: 'Kalis Mardiasih',
+        as: 'Peneliti Isu Perempuan & Anak'
+    },
 ]
 
 const musicians = [
