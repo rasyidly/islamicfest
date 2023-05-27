@@ -12,7 +12,7 @@
                         <ul class="flex py-10 flex-nowrap">
                             <li class="px-6 text-center min-w-max" v-for="speaker in speakers">
                                 <figure class="grid mb-2 place-items-center">
-                                    <img class="w-56" :src="speaker.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
+                                    <img class="h-56" :src="speaker.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
                                 </figure>
                                 <h1 class="text-2xl font-bold">{{ speaker.name }}</h1>
                                 <div class="text-lg text-indigo-500">{{ speaker.as }}</div>
@@ -29,7 +29,7 @@
                         <ul class="flex py-10 2xl:justify-center flex-nowrap">
                             <li class="px-6 text-center min-w-max" v-for="musician in musicians">
                                 <figure class="grid mb-2 place-items-center">
-                                    <img class="w-56" :src="musician.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
+                                    <img class="h-56" :src="musician.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
                                 </figure>
                                 <h1 class="text-2xl font-bold">{{ musician.name }}</h1>
                                 <div class="text-lg text-indigo-500">{{ musician.as }}</div>
@@ -48,7 +48,7 @@
                                 <ul class="flex py-10 2xl:justify-center flex-nowrap">
                                     <li class="px-6 text-center min-w-max" v-for="preacher in preachers">
                                         <figure class="grid mb-2 place-items-center">
-                                            <img class="w-56" :src="preacher.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
+                                            <img class="h-56" :src="preacher.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
                                         </figure>
                                         <h1 class="text-2xl font-bold">{{ preacher.name }}</h1>
                                         <div class="text-lg text-amber-500">{{ preacher.as }}</div>
@@ -67,7 +67,7 @@
                                 <ul class="flex py-10 flex-nowrap">
                                     <li class="px-6 text-center min-w-max" v-for="comedian in comedians">
                                         <figure class="grid mb-2 place-items-center">
-                                            <img class="w-56" :src="comedian.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
+                                            <img class="h-56" :src="comedian.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
                                         </figure>
                                         <h1 class="text-2xl font-bold">{{ comedian.name }}</h1>
                                         <div class="text-lg text-gray-500">{{ comedian.as || '' }}</div>
@@ -122,9 +122,11 @@ const speakers = [
 
 const musicians = [
     {
+        img: '/images/speakers/panji.png',
         name: 'Panji Sakti'
     },
     {
+        img: '/images/speakers/kotak.png',
         name: 'Kotak Band'
     }
 ]
@@ -132,22 +134,31 @@ const musicians = [
 const preachers = [
     {
         img: '/images/speakers/bib-husein.png',
-        name: 'Login',
-        as: 'Habib Husein Jafar & Onad'
+        name: 'Habib Husein',
+        as: 'Login'
+    },
+    {
+        img: '/images/speakers/onad.png',
+        name: 'Onad',
+        as: 'Login'
     }
 ]
 
 const comedians = [
     {
+        img: '/images/speakers/priska.png',
         name: 'Priska Barusegu'
     },
     {
+        img: '/images/speakers/gigih.png',
         name: 'Gigih Adiguna'
     },
     {
-        name: 'Benedictivity'
+        img: '/images/speakers/benidictivity.png',
+        name: 'Benidictivity'
     },
     {
+        img: '/images/speakers/yusril.png',
         name: 'Yusril Fahriza'
     },
 ]
