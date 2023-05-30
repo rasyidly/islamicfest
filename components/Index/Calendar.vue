@@ -18,7 +18,7 @@
                         <PhArrowRight :size="24" />
                         <div>
                             <div class="text-gray-400">Tanggal</div>
-                            <div class="text-lg font-bold">9 & 10 Juni 2023</div>
+                            <div class="text-lg font-bold">10 Juni 2023</div>
                         </div>
                     </div>
                     <div class="flex items-center space-x-4">
@@ -59,7 +59,7 @@
                     <tbody>
                         <tr v-for="i in 5">
                             <td v-for="(j, d) in 7" :key="d" class="py-2 text-center sm:p-4">
-                                <span v-if="((7 * (i - 1)) + j - 4) > 0 && ((7 * (i - 1)) + j - 4) < 31" :class="{ 'text-red-500': [0, 6].includes(d), 'border-2 border-gray-950 rounded-full h-8 sm:h-12 w-8 sm:w-12 grid place-items-center mx-auto': [9, 10].includes((7 * (i - 1)) + j - 4) }">
+                                <span v-if="((7 * (i - 1)) + j - 4) > 0 && ((7 * (i - 1)) + j - 4) < 31" :class="{ 'text-red-500': [0, 6].includes(d), 'border-2 border-gray-950 rounded-full h-8 sm:h-12 w-8 sm:w-12 grid place-items-center mx-auto': [10].includes((7 * (i - 1)) + j - 4) }">
                                     {{ ((7 * (i - 1)) + j - 4) }}
                                 </span>
                             </td>

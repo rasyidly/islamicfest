@@ -102,6 +102,7 @@ const speakers = [
         as: 'Menteri Agama'
     },
     {
+        img: '/images/speakers/hilmar.png',
         name: 'Hilmar Farid',
         as: 'Dirjen Kebudayaan'
     },
@@ -110,6 +111,7 @@ const speakers = [
         as: 'Jurnalis Perempuan'
     },
     {
+        img: '/images/speakers/savic.png',
         name: 'Savic Ali',
         as: 'PBNU'
     },

@@ -9,13 +9,13 @@
             </svg>
             <div class="container z-10 max-w-6xl py-16 mx-auto lg:py-24">
                 <h1 class="mb-8 font-bold text-6xl sm:text-8xl sm:hyphens-none xl:text-[108pt] xl:leading-[108pt] outline-4">Ramah Kebera&shy;gaman & Ramah Anak</h1>
-                <div class="inline-block px-6 py-3 text-2xl font-bold bg-white border-4 rounded-lg sm:rounded-full border-gray-950">Jakarta, <br class="sm:hidden" /> 9 & 10 Juni 2023</div>
+                <div class="inline-block px-6 py-3 text-2xl font-bold bg-white border-4 rounded-lg sm:rounded-full border-gray-950">Jakarta, <br class="sm:hidden" /> 10 Juni 2023</div>
             </div>
         </section>
         <section id="about" class="p-4 border-b-4 border-gray-950">
             <div class="max-w-6xl py-16 mx-auto text-center lg:py-24">
                 <h2 class="mb-6 text-5xl font-bold">Islamifest</h2>
-                <p class="mb-8 text-2xl">Ruang perjumpaan yang dirancang untuk merayakan keberagaman dan keindahan budaya Islam. Event ini menghadirkan berbagai elemen seni, budaya, dan spiritualitas Islam abad ke-21 yang akan memberikan pengalaman yang mendalam dan berkesan bagi para Anda.</p>
+                <p class="mb-8 text-2xl">Ruang perjumpaan tahunan yang dirancang untuk merayakan keberagaman dan keindahan budaya Islam Indonesia. Islamifest menghadirkan berbagai elemen seni, budaya, dan kajian keislaman abad ke-21 dengan para artis, komika, musisi, tokoh nasional, pakar, dan pendakwah terkurasi yang akan meningkatkan pengalaman keberislaman dan kebhinekaan siapa pun yang hadir.</p>
                 <a class="inline-flex items-center px-8 py-4 space-x-4 text-lg font-bold transition bg-indigo-400 border-4 rounded-full hover:bg-amber-500 border-gray-950" :href="ticketUrl" target="_blank">
                     <div>Buy Ticket</div>
                     <PhArrowRight />
