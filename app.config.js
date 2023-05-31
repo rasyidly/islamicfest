@@ -1,3 +1,3 @@
 export default defineAppConfig({
-	ticketUrl: "https://festival.islami.co",
+	ticketUrl: "https://ktbs.in/islamifest",
 });
