@@ -8,16 +8,26 @@
                         <PhMicrophoneStage :size="64" />
                         <h3>Kajian Pakar</h3>
                     </div>
-                    <div class="overflow-x-auto bg-white">
-                        <ul class="flex py-10 flex-nowrap">
-                            <li class="px-6 text-center min-w-max" v-for="speaker in speakers">
-                                <figure class="grid mb-2 place-items-center">
-                                    <img class="h-56" :src="speaker.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
-                                </figure>
-                                <h1 class="text-2xl font-bold">{{ speaker.name }}</h1>
-                                <div class="text-lg text-indigo-500">{{ speaker.as }}</div>
-                            </li>
-                        </ul>
+                    <div class="relative bg-white overflow-clip">
+                        <div class="absolute inset-x-0 flex items-center justify-between -translate-y-1/2 top-1/2">
+                            <button type="button" class="fixed grid w-12 h-12 rounded-full left-4 bg-gray-200/50 place-items-center" @click="$event => $event.target.closest('.absolute').nextSibling.scrollLeft -= 100">
+                                <PhArrowLeft class="text-gray-950" />
+                            </button>
+                            <button type="button" class="fixed grid w-12 h-12 rounded-full right-4 bg-gray-200/50 place-items-center" @click="$event => $event.target.closest('.absolute').nextSibling.scrollLeft += 100">
+                                <PhArrowRight class="text-gray-950" />
+                            </button>
+                        </div>
+                        <div class="overflow-x-auto">
+                            <ul class="flex items-center py-10 flex-nowrap">
+                                <li class="px-6 text-center min-w-max" v-for="speaker in speakers">
+                                    <figure class="grid mb-2 place-items-center">
+                                        <img class="h-56" :src="speaker.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
+                                    </figure>
+                                    <h1 class="text-2xl font-bold">{{ speaker.name }}</h1>
+                                    <div class="text-lg text-indigo-500">{{ speaker.as }}</div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div id="speakers-music" class="flex flex-col mx-auto border-4 divide-y-4 lg:divide-y-0 lg:divide-x-4 lg:divide-x-reverse lg:flex-row-reverse border-gray-950 rounded-xl divide-gray-950 overflow-clip">
@@ -25,8 +35,16 @@
                         <PhMusicNotes :size="64" />
                         <h3>Panggung Musik</h3>
                     </div>
-                    <div class="w-full overflow-x-auto bg-white">
-                        <ul class="flex py-10 2xl:justify-center flex-nowrap">
+                    <div class="relative w-full overflow-hidden bg-white">
+                        <div class="absolute inset-x-0 flex items-center justify-between -translate-y-1/2 top-1/2">
+                            <button type="button" class="fixed grid w-12 h-12 rounded-full left-4 bg-gray-200/50 place-items-center" @click="$event => $event.target.closest('.absolute').nextSibling.scrollLeft -= 100">
+                                <PhArrowLeft class="text-gray-950" />
+                            </button>
+                            <button type="button" class="fixed grid w-12 h-12 rounded-full right-4 bg-gray-200/50 place-items-center" @click="$event => $event.target.closest('.absolute').nextSibling.scrollLeft += 100">
+                                <PhArrowRight class="text-gray-950" />
+                            </button>
+                        </div>
+                        <ul class="flex py-10 overflow-x-auto 2xl:justify-center flex-nowrap">
                             <li class="px-6 text-center min-w-max" v-for="musician in musicians">
                                 <figure class="grid mb-2 place-items-center">
                                     <img class="h-56" :src="musician.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
@@ -44,8 +62,16 @@
                                 <PhSpeakerHigh :size="64" />
                                 <h3 class="hyphens-manual">Dakwah&shy;tainment</h3>
                             </div>
-                            <div class="overflow-x-auto bg-white">
-                                <ul class="flex py-10 2xl:justify-center flex-nowrap">
+                            <div class="relative overflow-hidden bg-white">
+                                <div class="absolute inset-x-0 flex items-center justify-between -translate-y-1/2 top-1/2">
+                                    <button type="button" class="fixed grid w-12 h-12 rounded-full left-4 bg-gray-200/50 place-items-center" @click="$event => $event.target.closest('.absolute').nextSibling.scrollLeft -= 100">
+                                        <PhArrowLeft class="text-gray-950" />
+                                    </button>
+                                    <button type="button" class="fixed grid w-12 h-12 rounded-full right-4 bg-gray-200/50 place-items-center" @click="$event => $event.target.closest('.absolute').nextSibling.scrollLeft += 100">
+                                        <PhArrowRight class="text-gray-950" />
+                                    </button>
+                                </div>
+                                <ul class="flex py-10 overflow-x-auto 2xl:justify-center flex-nowrap">
                                     <li class="px-6 text-center min-w-max" v-for="preacher in preachers">
                                         <figure class="grid mb-2 place-items-center">
                                             <img class="h-56" :src="preacher.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
@@ -63,8 +89,16 @@
                                 <PhMaskHappy :size="64" />
                                 <h3>Panggung Komedi</h3>
                             </div>
-                            <div class="overflow-x-auto bg-white">
-                                <ul class="flex py-10 flex-nowrap">
+                            <div class="relative overflow-hidden bg-white">
+                                <div class="absolute inset-x-0 flex items-center justify-between -translate-y-1/2 top-1/2">
+                                    <button type="button" class="fixed grid w-12 h-12 rounded-full left-4 bg-gray-200/50 place-items-center" @click="$event => $event.target.closest('.absolute').nextSibling.scrollLeft -= 100">
+                                        <PhArrowLeft class="text-gray-950" />
+                                    </button>
+                                    <button type="button" class="fixed grid w-12 h-12 rounded-full right-4 bg-gray-200/50 place-items-center" @click="$event => $event.target.closest('.absolute').nextSibling.scrollLeft += 100">
+                                        <PhArrowRight class="text-gray-950" />
+                                    </button>
+                                </div>
+                                <ul class="flex py-10 overflow-x-auto flex-nowrap">
                                     <li class="px-6 text-center min-w-max" v-for="comedian in comedians">
                                         <figure class="grid mb-2 place-items-center">
                                             <img class="h-56" :src="comedian.img || 'https://img.freepik.com/premium-vector/avatar-young-man-with-glasses-nerd-geek-brand-character-logo_15870-926.jpg'" alt="">
@@ -83,7 +117,7 @@
 </template>
 
 <script setup>
-import { PhMicrophoneStage, PhMusicNotes, PhSpeakerHigh, PhMaskHappy } from '@phosphor-icons/vue'
+import { PhMicrophoneStage, PhMusicNotes, PhSpeakerHigh, PhMaskHappy, PhArrowLeft, PhArrowRight } from '@phosphor-icons/vue'
 
 const speakers = [
     {
