@@ -5,9 +5,6 @@ export default defineNuxtConfig({
         '@nuxtjs/google-fonts',
         '@nuxtjs/tailwindcss'
     ],
-    routeRules: {
-        '/ticket': { redirect: 'http://ktbs.in/islamifest' },
-    },
     googleFonts: {
         families: {
             'Space+Grotesk': true
