@@ -140,10 +140,10 @@ const speakers = [
         name: 'Hilmar Farid',
         as: 'Dirjen Kebudayaan'
     },
-    {
-        name: 'Uni Lubis',
-        as: 'Jurnalis Perempuan'
-    },
+    // {
+    //     name: 'Uni Lubis',
+    //     as: 'Jurnalis Perempuan'
+    // },
     {
         img: '/images/speakers/savic.png',
         name: 'Savic Ali',

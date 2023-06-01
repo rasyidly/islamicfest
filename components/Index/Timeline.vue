@@ -31,36 +31,36 @@
 import { PhCalendarCheck } from '@phosphor-icons/vue';
 
 const timelines = [
-    {
-        date: 'Jumat, 09 Juni 2023',
-        events: [
-            {
-                time: '16.00 - 17.30',
-                name: 'Welcoming Ceremony'
-            },
-            {
-                time: '19.30 - 22.00',
-                name: 'Comedy, Music & Toughtful Talk'
-            },
-        ]
-    },
+    // {
+    //     date: 'Jumat, 09 Juni 2023',
+    //     events: [
+    //         {
+    //             time: '16.00 - 17.30',
+    //             name: 'Welcoming Ceremony'
+    //         },
+    //         {
+    //             time: '19.30 - 22.00',
+    //             name: 'Comedy, Music & Toughtful Talk'
+    //         },
+    //     ]
+    // },
     {
         date: 'Sabtu, 10 Juni 2023',
         events: [
             {
-                time: '09.00 - 12.00',
-                name: 'Music, Comedy & Media Gathering'
+                time: '10.00 - 12.00',
+                name: 'Parenting Class'
             },
             {
-                time: '13.00 - 15.00',
-                name: 'Dakwah, Comedy & Music Performance'
+                time: '12.30 - 15.00',
+                name: 'Book Talk & Stand-Up Comedy'
             },
             {
-                time: '16.00 - 17.30',
-                name: 'Book Talk & Bazaar'
+                time: '15.30 - 18.00',
+                name: 'Dakwahtainment: LOGIN'
             },
             {
-                time: '20.00 - 22.00',
+                time: '19.00 - 22.00',
                 name: 'Funtustic Stage'
             },
         ]
