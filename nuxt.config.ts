@@ -5,6 +5,9 @@ export default defineNuxtConfig({
         '@nuxtjs/google-fonts',
         '@nuxtjs/tailwindcss'
     ],
+    app: {
+        buildAssetsDir: 'festival'
+    },
     googleFonts: {
         families: {
             'Space+Grotesk': true
