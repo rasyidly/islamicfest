@@ -48,7 +48,7 @@
             <nav>
                 <ul class="flex justify-start divide-x-4 divide-gray-950">
                     <li>
-                        <a class="flex px-6 py-6 space-x-2 transition whitespace-nowrap hover:bg-pink-500 hover:text-white" href="https://wa.me/6285779697337" target="_blank">
+                        <a class="flex px-6 py-6 space-x-2 transition whitespace-nowrap hover:bg-pink-500 hover:text-white" href="https://wa.me/6281284448416" target="_blank">
                             <PhWhatsappLogo :size="24" />
                             <span class="hidden lg:inline">Contact Us</span>
                         </a>
