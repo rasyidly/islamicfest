@@ -154,6 +154,8 @@
 import { PhChatText, PhEnvelope, PhHouseSimple, PhInstagramLogo, PhPhone, PhTicket, PhTwitterLogo, PhWhatsappLogo, PhYoutubeLogo } from '@phosphor-icons/vue'
 const { ticketUrl } = useAppConfig()
 
+const openTawk = () => alert('Gunakan LiveChat di kanan bawah layar Kamu.')
+
 onMounted(() => {
     var Tawk_API = 'd65f14f792c7aee3f07fd3d725c73ab0d00d548f' || {}, Tawk_LoadStart = new Date();
     (function () {
