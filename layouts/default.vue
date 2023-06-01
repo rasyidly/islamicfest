@@ -48,10 +48,10 @@
             <nav>
                 <ul class="flex justify-start divide-x-4 divide-gray-950">
                     <li>
-                        <a class="flex px-6 py-6 space-x-2 transition whitespace-nowrap hover:bg-pink-500 hover:text-white" href="https://wa.me/6281284448416" target="_blank">
-                            <PhWhatsappLogo :size="24" />
+                        <button class="flex px-6 py-6 space-x-2 transition bg-transparent rounded-none text-gray-950 whitespace-nowrap hover:bg-pink-500 hover:text-white" @click="openTawk">
+                            <PhChatText :size="24" />
                             <span class="hidden lg:inline">Contact Us</span>
-                        </a>
+                        </button>
                     </li>
                     <li>
                         <a class="flex px-6 py-6 space-x-2 text-white transition whitespace-nowrap bg-gray-950 hover:bg-indigo-500" :href="ticketUrl" target="_blank">
@@ -151,6 +151,18 @@
 </template>
 
 <script setup>
-import { PhEnvelope, PhHouseSimple, PhInstagramLogo, PhPhone, PhTicket, PhTwitterLogo, PhWhatsappLogo, PhYoutubeLogo } from '@phosphor-icons/vue'
+import { PhChatText, PhEnvelope, PhHouseSimple, PhInstagramLogo, PhPhone, PhTicket, PhTwitterLogo, PhWhatsappLogo, PhYoutubeLogo } from '@phosphor-icons/vue'
 const { ticketUrl } = useAppConfig()
+
+onMounted(() => {
+    var Tawk_API = 'd65f14f792c7aee3f07fd3d725c73ab0d00d548f' || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/6478abb0ad80445890f0762b/1h1rltap0';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+})
 </script>
