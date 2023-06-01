@@ -1,10 +1,10 @@
 <template>
-    <section id="timeline" class="border-b-4 border-gray-950">
+    <section id="timeline" class="border-b-4 bg-amber-500 border-gray-950">
         <div class="container p-8 mx-auto lg:p-20 max-w-8xl">
             <div class="lg:flex lg:space-x-24 lg:items-center">
                 <h2 class="mb-8 text-3xl font-bold text-center lg:text-4xl xl:text-6xl">Rundown</h2>
                 <div class="overflow-x-auto lg:flex lg:space-x-4 pe-4">
-                    <div v-for="timeline in timelines" class="border-4 rounded-lg border-gray-950 p-6 lg:p-16 mb-4 shadow-[6px_6px_0_#f59e0b]">
+                    <div v-for="timeline in timelines" class="border-4 rounded-lg bg-white border-gray-950 p-6 lg:p-16 mb-4 shadow-[8px_8px_0_#d57e2b]">
                         <h3 class="mb-8 text-3xl font-bold lg:text-4xl">{{ timeline.date }}</h3>
                         <ol class="sm:flex flex-nowrap">
                             <li v-for="event in timeline.events" class="relative mb-6 sm:mb-0 min-w-[16rem]">

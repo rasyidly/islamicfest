@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-gray-100 border-b-4 border-gray-950">
+    <div class="bg-gray-500 border-b-4 border-gray-950">
         <section id="speakers" class="p-8 lg:py-20">
-            <h2 class="mb-8 text-3xl font-bold text-center lg:text-4xl">Narasumber dan Bintang Tamu</h2>
+            <h2 class="mb-8 text-3xl font-bold text-center text-white lg:text-4xl">Narasumber dan Bintang Tamu</h2>
             <div class="mx-auto space-y-8 max-w-7xl">
                 <div id="speakers-talk" class="flex flex-col mx-auto border-4 divide-y-4 lg:divide-y-0 lg:divide-x-4 lg:flex-row border-gray-950 rounded-xl divide-gray-950 overflow-clip">
                     <div class="flex flex-col gap-4 p-8 text-4xl font-bold bg-indigo-500 md:flex-row md:items-center lg:items-start lg:justify-between lg:flex-col lg:p-16">

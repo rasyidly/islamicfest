@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col-reverse justify-between lg:flex-row lg:divide-x-4 divide-gray-950">
-        <section id="schedule" class="relative p-8 overflow-hidden border-b-4 sm:p-12 xl:p-20 border-gray-950">
+        <section id="schedule" class="relative p-8 overflow-hidden bg-pink-500 border-b-4 sm:p-12 xl:p-20 border-gray-950">
             <PhCalendarCheck class="absolute z-0 text-gray-100 -bottom-16 -end-16 sm:text-gray-950" weight="thin" :size="360" />
             <div class="relative z-10 max-w-xl mx-auto">
                 <div class="flex items-center mb-8 space-x-4">
@@ -10,28 +10,28 @@
                     <div class="flex items-center space-x-4">
                         <PhArrowRight :size="24" />
                         <div>
-                            <div class="text-gray-400">Hari</div>
+                            <div class="text-pink-300">Hari</div>
                             <div class="text-lg font-bold">Jumat & Sabtu</div>
                         </div>
                     </div>
                     <div class="flex items-center space-x-4">
                         <PhArrowRight :size="24" />
                         <div>
-                            <div class="text-gray-400">Tanggal</div>
+                            <div class="text-pink-300">Tanggal</div>
                             <div class="text-lg font-bold">10 Juni 2023</div>
                         </div>
                     </div>
                     <div class="flex items-center space-x-4">
                         <PhArrowRight :size="24" />
                         <div>
-                            <div class="text-gray-400">Waktu</div>
+                            <div class="text-pink-300">Waktu</div>
                             <div class="text-lg font-bold">09:00 WIB & selesai</div>
                         </div>
                     </div>
                     <div class="flex items-center space-x-4">
                         <PhArrowRight :size="24" />
                         <div>
-                            <div class="text-gray-400">Tempat</div>
+                            <div class="text-pink-300">Tempat</div>
                             <div class="text-lg font-bold">Redtop Hotel Jakarta</div>
                         </div>
                     </div>

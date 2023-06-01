@@ -70,7 +70,7 @@
                 <h2 class="mb-8 text-xl font-bold text-center text-gray-400 lg:text-2xl">Our Partners</h2>
                 <div class="flex flex-wrap items-center justify-center gap-8">
                     <a href="https://www.kemenag.go.id/" target="_blank"><img class="aspect-auto max-h-12" src="/images/kemenag.png" alt=""></a>
-                    <a href="https://www.unicef.org/" target="_blank"><img class="aspect-auto max-h-7" src="/images/unicef.png" alt=""></a>
+                    <a href="https://www.unicef.org/" target="_blank"><img class="aspect-auto max-h-12" src="/images/unicef.png" alt=""></a>
                     <a href="https://www.instagram.com/komujijakarta/?hl=id" target="_blank"><img class="aspect-auto max-h-12" src="/images/komuji.png" alt=""></a>
                     <a href="https://cariustadz.id/" target="_blank"><img class="aspect-auto max-h-6" src="/images/cariustadz.png" alt=""></a>
                     <a href="https://bincangsyariah.com/" target="_blank"><img class="aspect-auto max-h-12" src="/images/bincangsyariah.png" alt=""></a>
@@ -83,6 +83,7 @@
                     <a href="https://funislam.com/" target="_blank"><img class="aspect-auto max-h-8" src="/images/funislam.png" alt=""></a>
                     <a href="https://ibtimes.id/" target="_blank"><img class="aspect-auto max-h-8" src="/images/ibtimes.png" alt=""></a>
                     <a href="https://islamsantun.org/" target="_blank"><img class="aspect-auto max-h-8" src="/images/islamsantun.png" alt=""></a>
+                    <a href="https://tvnu.id/" target="_blank"><img class="aspect-auto max-h-12" src="/images/tvnu.png" alt=""></a>
                     <!-- <a href="https://www.kompas.com/" target="_blank"><img class="aspect-auto max-h-8" src="/images/kompas.png" alt=""></a> -->
                     <a href="https://neswa.id/" target="_blank"><img class="aspect-auto max-h-5" src="/images/neswa.png" alt=""></a>
                     <a href="https://www.nu.or.id/" target="_blank"><img class="aspect-auto max-h-6" src="/images/nuonline.png" alt=""></a>

@@ -13,7 +13,7 @@
                 </div>
             </div> -->
             <div class="flex flex-col-reverse md:grid md:grid-cols-2 md:divide-x-4 md:divide-gray-950">
-                <div class="p-8 border-b-4 lg:p-20 2xl:p-36 border-gray-950">
+                <div class="p-8 bg-pink-500 border-b-4 lg:p-20 2xl:p-36 border-gray-950">
                     <div class="flex flex-col justify-center h-full">
                         <h1 class="mb-4 text-4xl font-bold lg:text-7xl">Unity in Diversity</h1>
                         <div class="text-xl lg:text-3xl">Tema keberagaman dan perlindungan anak, manifestasi Bhinneka Tunggal Ika dalam konteks keislaman.</div>
