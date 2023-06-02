@@ -87,24 +87,27 @@
                     <h5 class="mb-4 text-xl font-bold text-gray-300">Partners</h5>
                     <div class="flex flex-wrap items-center max-w-4xl gap-4">
                         <a href="https://www.vice.com/id/topic/indonesia" target="_blank"><img class="aspect-auto max-h-8" src="/images/vice-indo.png" alt=""></a>
-                        <a href="https://www.nu.or.id/" target="_blank"><img class="aspect-auto max-h-6" src="/images/nuonline.png" alt=""></a>
+                        <a href="https://www.nu.or.id/" target="_blank"><img class="aspect-auto max-h-6 " src="/images/nuonline.png" alt=""></a>
                         <a href="https://ibtimes.id/" target="_blank"><img class="aspect-auto max-h-8" src="/images/ibtimes.png" alt=""></a>
                         <a href="https://bincangsyariah.com/" target="_blank"><img class="aspect-auto max-h-12" src="/images/bincangsyariah.png" alt=""></a>
-                        <a href="https://tvnu.id/" target="_blank"><img class="aspect-auto max-h-12" src="/images/tvnu.png" alt=""></a>
+                        <!-- <a href="https://tvnu.id/" target="_blank"><img class="aspect-auto max-h-12" src="/images/tvnu.png" alt=""></a> -->
+                        <a href="https://ikhbar.com/" target="_blank"><img class="aspect-auto max-h-12" src="/images/ikhbar.png" alt=""></a>
                         <a href="https://iqra.id/" target="_blank"><img class="aspect-auto max-h-8" src="/images/iqra.png" alt=""></a>
                         <a href="https://funislam.com/" target="_blank"><img class="aspect-auto max-h-8" src="/images/funislam.png" alt=""></a>
+                        <a href="https://nucash.asia/" target="_blank"><img class="aspect-auto max-h-8" src="/images/nucash.svg" alt=""></a>
                         <a href="https://alif.id/" target="_blank"><img class="aspect-auto max-h-6" src="/images/alif-id.png" alt=""></a>
                         <!-- <a href="https://www.bbc.com/indonesia" target="_blank"><img class="aspect-auto max-h-6" src="/images/bbc.png" alt=""></a> -->
                         <a href="https://gusdurian.net/" target="_blank"><img class="aspect-auto max-h-6" src="/images/gusdurian.png" alt=""></a>
                         <a href="https://arrahim.id/" target="_blank"><img class="aspect-auto max-h-8" src="/images/arrahim.png" alt=""></a>
-                        <a href="https://bincangmuslimah.com/" target="_blank"><img class="aspect-auto max-h-12" src="/images/bincang-muslimah.png" alt=""></a>
+                        <a href="https://suara.com/" target="_blank"><img class="aspect-auto max-h-4" src="/images/suara.png" alt=""></a>
+                        <!-- <a href="https://bincangmuslimah.com/" target="_blank"><img class="aspect-auto max-h-12" src="/images/bincang-muslimah.png" alt=""></a> -->
                         <!-- <a href="https://www.detik.com/" target="_blank"><img class="aspect-auto max-h-6" src="/images/detik.png" alt=""></a> -->
                         <a href="https://islamsantun.org/" target="_blank"><img class="aspect-auto max-h-8" src="/images/islamsantun.png" alt=""></a>
-                        <!-- <a href="https://www.kompas.com/" target="_blank"><img class="aspect-auto max-h-8" src="/images/kompas.png" alt=""></a> -->
+                        <a href="https://kompas.tv/" target="_blank"><img class="aspect-auto max-h-6" src="/images/kompastv.svg" alt=""></a>
                         <a href="https://neswa.id/" target="_blank"><img class="aspect-auto max-h-5" src="/images/neswa.png" alt=""></a>
                         <!-- <a href="https://www.republika.co.id/" target="_blank"><img class="aspect-auto max-h-5" src="/images/republika.webp" alt=""></a> -->
-                        <a href="https://santrigayengnusantara.co/" target="_blank"><img class="aspect-auto max-h-16" src="/images/santrigayeng.png" alt=""></a>
-                        <a href="https://tafsiralquran.id/" target="_blank"><img class="aspect-auto max-h-16" src="/images/tafsir-quran.png" alt=""></a>
+                        <!-- <a href="https://santrigayengnusantara.co/" target="_blank"><img class="aspect-auto max-h-16" src="/images/santrigayeng.png" alt=""></a> -->
+                        <!-- <a href="https://tafsiralquran.id/" target="_blank"><img class="aspect-auto max-h-16" src="/images/tafsir-quran.png" alt=""></a> -->
                         <!-- <a href="https://www.thejakartapost.com/" target="_blank"><img class="aspect-auto max-h-6" src="/images/thejakartapost.png" alt=""></a> -->
                     </div>
                 </div>

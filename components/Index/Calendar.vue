@@ -10,28 +10,28 @@
                     <div class="flex items-center space-x-4">
                         <PhArrowRight :size="24" />
                         <div>
-                            <div class="text-pink-300">Hari</div>
-                            <div class="text-lg font-bold">Jumat & Sabtu</div>
+                            <div class="text-white">Hari</div>
+                            <div class="text-lg font-bold">Sabtu</div>
                         </div>
                     </div>
                     <div class="flex items-center space-x-4">
                         <PhArrowRight :size="24" />
                         <div>
-                            <div class="text-pink-300">Tanggal</div>
+                            <div class="text-white">Tanggal</div>
                             <div class="text-lg font-bold">10 Juni 2023</div>
                         </div>
                     </div>
                     <div class="flex items-center space-x-4">
                         <PhArrowRight :size="24" />
                         <div>
-                            <div class="text-pink-300">Waktu</div>
+                            <div class="text-white">Waktu</div>
                             <div class="text-lg font-bold">09:00 WIB & selesai</div>
                         </div>
                     </div>
                     <div class="flex items-center space-x-4">
                         <PhArrowRight :size="24" />
                         <div>
-                            <div class="text-pink-300">Tempat</div>
+                            <div class="text-white">Tempat</div>
                             <div class="text-lg font-bold">Redtop Hotel Jakarta</div>
                         </div>
                     </div>
