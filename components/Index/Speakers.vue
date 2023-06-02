@@ -254,7 +254,7 @@ const speakers = [
     {
         img: '/images/speakers/najelaa.png',
         name: 'Najelaa Shihab',
-        as: 'Edukator Parenting'
+        as: 'Parenting Educator'
     },
     {
         img: '/images/speakers/yaqut-cholil.png',
@@ -270,11 +270,6 @@ const speakers = [
         img: '/images/speakers/savic.png',
         name: 'Savic Ali',
         as: 'PBNU'
-    },
-    {
-        img: '/images/speakers/savic.png',
-        name: 'Yenny Wahid',
-        as: ''
     },
     {
         img: '/images/speakers/kalis.png',
