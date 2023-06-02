@@ -95,7 +95,7 @@
             <use xlink:href="#bbburst-shape-2" width="41.47353280663228" transform="matrix(1.1129647179735604,-0.5690426491450646,0.5690426491450646,1.1129647179735604,143.97272578505704,310.13671618317176)" fill="#ec4899"></use>
         </svg>
         <section id="speakers" class=" p-8 lg:py-20">
-            <h2 class="mb-8 text-3xl font-bold text-center text-white lg:text-4xl">Narasumber dan Bintang Tamu</h2>
+            <h2 class="mb-8 text-3xl font-bold text-center lg:text-4xl">Narasumber dan Bintang Tamu</h2>
             <div class="mx-auto space-y-8 max-w-7xl ">
                 <div id="speakers-talk" class=" flex flex-col mx-auto border-4 divide-y-4 lg:divide-y-0 lg:divide-x-4 lg:flex-row border-gray-950 rounded-xl divide-gray-950 overflow-clip">
                     <div class="flex flex-col gap-4 p-8 text-4xl font-bold bg-indigo-400 md:flex-row md:items-center lg:items-start lg:justify-between lg:flex-col lg:p-16">

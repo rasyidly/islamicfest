@@ -48,10 +48,10 @@
             <nav>
                 <ul class="flex justify-start divide-x-4 divide-gray-950">
                     <li>
-                        <button class="flex px-6 py-6 space-x-2 transition bg-transparent rounded-none text-gray-950 whitespace-nowrap hover:bg-pink-500 hover:text-white" @click="openTawk">
-                            <PhChatText :size="24" />
-                            <span class="hidden lg:inline">Contact Us</span>
-                        </button>
+                        <a class="flex px-6 py-6 space-x-2 transition bg-transparent rounded-none text-gray-950 whitespace-nowrap hover:bg-pink-500 hover:text-white" href="#faqs">
+                            <PhQuestion :size="24" />
+                            <span class="hidden lg:inline">FAQ</span>
+                        </a>
                     </li>
                     <li>
                         <a class="flex px-6 py-6 space-x-2 text-white transition whitespace-nowrap bg-gray-950 hover:bg-indigo-500" :href="ticketUrl" target="_blank">
@@ -154,10 +154,8 @@
 </template>
 
 <script setup>
-import { PhChatText, PhEnvelope, PhHouseSimple, PhInstagramLogo, PhPhone, PhTicket, PhTwitterLogo, PhWhatsappLogo, PhYoutubeLogo } from '@phosphor-icons/vue'
+import { PhChatText, PhEnvelope, PhHouseSimple, PhInstagramLogo, PhPhone, PhQuestion, PhTicket, PhTwitterLogo, PhWhatsappLogo, PhYoutubeLogo } from '@phosphor-icons/vue'
 const { ticketUrl } = useAppConfig()
-
-const openTawk = () => alert('Gunakan LiveChat di kanan bawah layar Kamu.')
 
 onMounted(() => {
     var Tawk_API = 'd65f14f792c7aee3f07fd3d725c73ab0d00d548f' || {}, Tawk_LoadStart = new Date();
