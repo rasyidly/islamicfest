@@ -1,6 +1,6 @@
 <template>
-    <div class="relative bg-indigo-500 border-b-4 border-gray-950 z-0 overflow-clip">
-        <svg class="absolute left-1/2 -translate-x-1/2 h-full -z-10" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" opacity="1">
+    <div class="relative z-0 bg-indigo-500 border-b-4 border-gray-950 overflow-clip">
+        <svg class="absolute h-full -translate-x-1/2 left-1/2 -z-10" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" opacity="1">
             <defs>
                 <symbol id="bbburst-shape-1" viewBox="0 0 194 167">
                     <path d="m97 0 96.129 166.5H.871L97 0Z"></path>
@@ -94,10 +94,10 @@
             <use xlink:href="#bbburst-shape-9" width="41.917122555327936" transform="matrix(0.8533271438471949,0.5213758582573506,-0.5213758582573506,0.8533271438471949,863.1664002857456,168.17645868675442)" fill="none" stroke="#fbbf24"></use>
             <use xlink:href="#bbburst-shape-2" width="41.47353280663228" transform="matrix(1.1129647179735604,-0.5690426491450646,0.5690426491450646,1.1129647179735604,143.97272578505704,310.13671618317176)" fill="#ec4899"></use>
         </svg>
-        <section id="speakers" class=" p-8 lg:py-20">
+        <section id="speakers" class="p-8 lg:py-20">
             <h2 class="mb-8 text-3xl font-bold text-center lg:text-4xl">Narasumber dan Bintang Tamu</h2>
             <div class="mx-auto space-y-8 max-w-7xl ">
-                <div id="speakers-talk" class=" flex flex-col mx-auto border-4 divide-y-4 lg:divide-y-0 lg:divide-x-4 lg:flex-row border-gray-950 rounded-xl divide-gray-950 overflow-clip">
+                <div id="speakers-talk" class="flex flex-col mx-auto border-4 divide-y-4 lg:divide-y-0 lg:divide-x-4 lg:flex-row border-gray-950 rounded-xl divide-gray-950 overflow-clip">
                     <div class="flex flex-col gap-4 p-8 text-4xl font-bold bg-indigo-400 md:flex-row md:items-center lg:items-start lg:justify-between lg:flex-col lg:p-16">
                         <PhMicrophoneStage :size="64" />
                         <h3>Kajian Pakar</h3>
@@ -124,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="speakers-music" class=" flex flex-col mx-auto border-4 divide-y-4 lg:divide-y-0 lg:divide-x-4 lg:divide-x-reverse lg:flex-row-reverse border-gray-950 rounded-xl divide-gray-950 overflow-clip">
+                <div id="speakers-music" class="flex flex-col mx-auto border-4 divide-y-4 lg:divide-y-0 lg:divide-x-4 lg:divide-x-reverse lg:flex-row-reverse border-gray-950 rounded-xl divide-gray-950 overflow-clip">
                     <div class="flex flex-col gap-4 p-8 text-4xl font-bold bg-pink-500 md:flex-row md:items-center lg:items-start lg:justify-between lg:flex-col lg:p-16">
                         <PhMusicNotes :size="64" />
                         <h3>Panggung Musik</h3>
@@ -150,10 +150,13 @@
                     </div>
                 </div>
                 <div class="lg:grid lg:grid-cols-2 lg:space-x-8 ">
-                    <div id="speakers-dakwahtainment" class=" mb-8 lg:mb-0">
+                    <div id="speakers-dakwahtainment" class="mb-8 lg:mb-0">
                         <div class="border-4 divide-y-4 border-gray-950 rounded-xl divide-gray-950 overflow-clip">
                             <div class="flex flex-col gap-4 p-8 text-4xl font-bold md:flex-row md:items-center bg-amber-500">
-                                <PhSpeakerHigh :size="64" />
+                                <div>
+
+                                    <img class="max-h-14 aspect-auto" src="/images/login.png" alt="">
+                                </div>
                                 <h3 class="hyphens-manual">Dakwah&shy;tainment</h3>
                             </div>
                             <div class="relative overflow-hidden bg-white/90 backdrop-blur-sm">
@@ -205,8 +208,8 @@
                         </div>
                     </div>
                 </div>
-                <div id="speakers-host" class=" flex flex-col mx-auto border-4 divide-y-4 lg:divide-y-0 lg:divide-x-4 lg:flex-row border-gray-950 rounded-xl divide-gray-950 overflow-clip">
-                    <div class="flex flex-col gap-4 p-8 text-4xl font-bold bg-gray-950 text-white md:flex-row md:items-center lg:items-start lg:justify-between lg:flex-col lg:p-16">
+                <div id="speakers-host" class="flex flex-col mx-auto border-4 divide-y-4 lg:divide-y-0 lg:divide-x-4 lg:flex-row border-gray-950 rounded-xl divide-gray-950 overflow-clip">
+                    <div class="flex flex-col gap-4 p-8 text-4xl font-bold text-white bg-gray-950 md:flex-row md:items-center lg:items-start lg:justify-between lg:flex-col lg:p-16">
                         <PhMicrophone :size="64" />
                         <h3>Host & MC</h3>
                     </div>
