@@ -1,6 +1,6 @@
 <template>
     <section id="faqs" class="relative z-0 overflow-hidden">
-        <svg class="w-full absolute -z-10" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" preserveAspectRatio="none" viewBox="0 0 1440 560">
+        <svg class="absolute w-full -z-10" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" preserveAspectRatio="none" viewBox="0 0 1440 560">
             <g mask="url(&quot;#SvgjsMask1002&quot;)" fill="none">
                 <path d="M252.31 67.21L291.7 67.21L291.7 106.6L252.31 106.6z" stroke="rgba(99, 102, 241, 1)"></path>
                 <path d="M1242.15 46.04 a45.6 45.6 0 1 0 91.2 0 a45.6 45.6 0 1 0 -91.2 0z" stroke="rgba(99, 102, 241, 1)"></path>
@@ -42,17 +42,17 @@
                 </mask>
             </defs>
         </svg>
-        <div class=" p-8 lg:py-20">
+        <div class="p-8  lg:py-20">
             <h2 class="mb-1 text-3xl font-bold text-center lg:text-4xl">Frequently Asked Question</h2>
             <p class="mb-8 text-lg text-center text-gray-500">Pertanyaan yang sering diajukan</p>
-            <div class="mx-auto space-y-8 max-w-6xl ">
-                <HeadlessDisclosure v-for="(faq, i) in faqs" :key="i" v-slot="{ open }" as="div" class="border-4 border-gray-950 rounded-lg overflow-clip">
-                    <HeadlessDisclosureButton class="flex w-full text-left justify-between items-center p-6 text-xl font-bold rounded-none" :class="[faq.bg, { 'border-b-4 border-gray-950': open || faq.o }]" @click="faq.o = false">
+            <div class="max-w-6xl mx-auto space-y-8 ">
+                <HeadlessDisclosure v-for="(faq, i) in faqs" :key="i" v-slot="{ open }" as="div" class="border-4 rounded-lg border-gray-950 overflow-clip">
+                    <HeadlessDisclosureButton class="flex items-center justify-between w-full p-6 text-xl font-bold text-left rounded-none" :class="[faq.bg, { 'border-b-4 border-gray-950': open || faq.o }]" @click="faq.o = false">
                         <span>{{ faq.q }}</span>
-                        <PhCaretUp :class="open || faq.o ? 'rotate-180 transform' : ''" class="h-5 w-5 text-white" />
+                        <PhCaretUp :class="open || faq.o ? 'rotate-180 transform' : ''" class="w-5 h-5 text-white" />
                     </HeadlessDisclosureButton>
                     <div v-show="open || faq.o">
-                        <HeadlessDisclosurePanel static class="bg-white p-6 text-gray-500 text-lg" v-html="faq.a"></HeadlessDisclosurePanel>
+                        <HeadlessDisclosurePanel static class="p-6 text-lg text-gray-500 bg-white" v-html="faq.a"></HeadlessDisclosurePanel>
                     </div>
                 </HeadlessDisclosure>
             </div>
@@ -95,6 +95,11 @@ const faqs = [
         q: 'Kenapa harus donasi?',
         a: 'Supaya adik-adik penyintas konflik bisa dapet perhatian lebih. Hasil donasi dari kakak-kakak semua nanti akan disalurkan ke adik-adik penyintas di berbagai daerah lewat <strong>kitabisa.com</strong>. Setelah event selesai, kami akan mempublikasi jumlah donasi terkumpul dan rincian penyalurannya.',
         bg: 'bg-indigo-500'
+    },
+    {
+        q: 'Min, apa tandanya kalau pendaftaran kita sudah diterima?',
+        a: 'Nantinya Kakak akan dapat email H+1. So, mohon ditunggu surat cinta dari kami ya Kak :)',
+        bg: 'bg-amber-500'
     },
 
 ]

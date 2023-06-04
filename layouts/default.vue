@@ -105,6 +105,11 @@
                         <a href="https://islamsantun.org/" target="_blank"><img class="aspect-auto max-h-8" src="/images/islamsantun.png" alt=""></a>
                         <a href="https://kompas.tv/" target="_blank"><img class="aspect-auto max-h-6" src="/images/kompastv.svg" alt=""></a>
                         <a href="https://neswa.id/" target="_blank"><img class="aspect-auto max-h-5" src="/images/neswa.png" alt=""></a>
+                        <a href="https://www.instagram.com/cahpondok/" target="_blank"><img class="aspect-auto max-h-12" src="/images/cahpondok.png" alt=""></a>
+                        <a href="https://www.dream.co.id/" target="_blank"><img class="aspect-auto max-h-9" src="/images/dream-muslim.png" alt=""></a>
+                        <a href="https://www.instagram.com/lensapesantrenbabakan/" target="_blank"><img class="aspect-auto max-h-11" src="/images/lensapes.png" alt=""></a>
+                        <a href="https://www.youtube.com/channel/UCUPnishwgouTMsXcGQqJyQA" target="_blank"><img class="aspect-auto max-h-12" src="/images/sinnar-sharia.png" alt=""></a>
+                        <a href="https://www.youtube.com/@SuluhAgama" target="_blank"><img class="aspect-auto max-h-12" src="/images/suluh-agama.png" alt=""></a>
                         <!-- <a href="https://www.republika.co.id/" target="_blank"><img class="aspect-auto max-h-5" src="/images/republika.webp" alt=""></a> -->
                         <!-- <a href="https://santrigayengnusantara.co/" target="_blank"><img class="aspect-auto max-h-16" src="/images/santrigayeng.png" alt=""></a> -->
                         <!-- <a href="https://tafsiralquran.id/" target="_blank"><img class="aspect-auto max-h-16" src="/images/tafsir-quran.png" alt=""></a> -->
