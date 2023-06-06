@@ -6,7 +6,12 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss'
     ],
     app: {
-        buildAssetsDir: 'festival'
+        buildAssetsDir: 'festival',
+        head: {
+            script: [
+                { src: '//www.instagram.com/embed.js', async: true }
+            ]
+        }
     },
     googleFonts: {
         families: {

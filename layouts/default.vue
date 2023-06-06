@@ -21,11 +21,11 @@
                         <a class="block px-6 py-6 transition whitespace-nowrap hover:text-indigo-500" :href="ticketUrl" target="_blank">Tiket</a>
                     </li>
                     <li>
-                        <div class="block px-6 py-6 text-gray-400 transition cursor-not-allowed whitespace-nowrap">Galeri</div>
+                        <a class="block px-6 py-6 transition whitespace-nowrap hover:text-indigo-500" href="#gallery">Galeri</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <div class="block px-6 py-6 text-gray-400 transition cursor-not-allowed whitespace-nowrap">Testimoni</div>
-                    </li>
+                    </li> -->
                 </ul>
                 <ul class="flex justify-start">
                     <li>
@@ -110,6 +110,7 @@
                         <a href="https://www.instagram.com/lensapesantrenbabakan/" target="_blank"><img class="aspect-auto max-h-11" src="/images/lensapes.png" alt=""></a>
                         <a href="https://www.youtube.com/channel/UCUPnishwgouTMsXcGQqJyQA" target="_blank"><img class="aspect-auto max-h-12" src="/images/sinnar-sharia.png" alt=""></a>
                         <a href="https://www.youtube.com/@SuluhAgama" target="_blank"><img class="aspect-auto max-h-12" src="/images/suluh-agama.png" alt=""></a>
+                        <a href="https://aisnusantara.or.id/" target="_blank"><img class="aspect-auto max-h-12" src="/images/aisnu.png" alt=""></a>
                         <!-- <a href="https://www.republika.co.id/" target="_blank"><img class="aspect-auto max-h-5" src="/images/republika.webp" alt=""></a> -->
                         <!-- <a href="https://santrigayengnusantara.co/" target="_blank"><img class="aspect-auto max-h-16" src="/images/santrigayeng.png" alt=""></a> -->
                         <!-- <a href="https://tafsiralquran.id/" target="_blank"><img class="aspect-auto max-h-16" src="/images/tafsir-quran.png" alt=""></a> -->

@@ -7,6 +7,7 @@
         <IndexFeature />
         <IndexGoal />
         <IndexTimeline />
+        <IndexGallery />
         <IndexFAQ />
         <LazyClientOnly>
             <HeadlessTransitionRoot appear :show="modal" as="template">
